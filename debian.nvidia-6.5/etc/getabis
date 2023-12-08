@@ -9,5 +9,5 @@ repo_list=(
 
 package_prefixes linux-buildinfo
 
-getall amd64 nvidia
+getall nvidia
 getall arm64 nvidia nvidia-64k
