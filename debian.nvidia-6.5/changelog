@@ -1,3 +1,17 @@
+linux-nvidia-6.5 (6.5.0-1004.6~MPAM) jammy; urgency=medium
+
+  * Misc
+    - NVIDIA: [Config] removing amd64 arch
+    - NVIDIA: [Config] RESCTRL configs added to annotations
+  * MPAM patches
+    - KVM: arm64: Hide unsupported MPAM from the guest
+    - arm_mpam: Add workaround for T241-MPAM-4
+    - arm_mpam: Add workaround for T241-MPAM-1
+    - arm_mpam: Add quirk framework
+    - arm_mpam: resctrl: Update only requested configuration
+
+ -- Brad Figg <bfigg@nvidia.com>  Tue, 12 Dec 2023 13:07:10 -0800
+
 linux-nvidia-6.5 (6.5.0-1004.5~MPAM+1) jammy; urgency=medium
 
   * NVIDIA: SAUCE: iommu/arm-smmu-v3: Allow default substream bypass with a pasid support
