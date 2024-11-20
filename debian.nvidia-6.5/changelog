@@ -1,3 +1,10 @@
+linux-nvidia-6.5 (6.5.0-1004.8~MPAM) jammy; urgency=medium
+
+  * MPAM patches
+    - arm_mpam: Add workaround for T241-MPAM-6
+
+ -- Tushar Dave <tdave@nvidia.com>  Tue, 19 Nov 2024 14:37:37 -0800
+
 linux-nvidia-6.5 (6.5.0-1004.7~MPAM) jammy; urgency=medium
 
   * Misc
